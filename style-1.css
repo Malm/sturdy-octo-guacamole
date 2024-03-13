@@ -163,16 +163,6 @@ div.ct-fancy-icon {
 .ct-video {
   width: 100%;
 }
-.ct-video > .oxygen-vsb-responsive-video-wrapper {
-  position: relative;
-}
-.ct-video > .oxygen-vsb-responsive-video-wrapper > iframe {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-}
 @keyframes oxy_sticky_header_fadein {
   0% {
     opacity: 0;
