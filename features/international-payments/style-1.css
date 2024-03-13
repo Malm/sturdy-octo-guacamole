@@ -1,0 +1,220 @@
+/*! normalize.css v7.0.0 | MIT License | github.com/necolas/normalize.css */
+button,
+input {
+  overflow: visible;
+}
+
+video {
+  display: inline-block;
+}
+[type="checkbox"],
+[type="radio"] {
+  box-sizing: border-box;
+  padding: 0;
+}
+html {
+  line-height: 1.15;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+body,
+h1,
+h3,
+h4,
+h6 {
+  margin: 0;
+}
+article,
+header,
+menu,
+section {
+  display: block;
+}
+code {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+a {
+  background-color: transparent;
+  -webkit-text-decoration-skip: objects;
+}
+img {
+  border-style: none;
+}
+svg:not(:root) {
+  overflow: hidden;
+}
+button,
+input,
+select,
+textarea {
+  font-size: 100%;
+  line-height: 1.15;
+  margin: 0;
+}
+button,
+select {
+  text-transform: none;
+}
+[type="reset"],
+[type="submit"],
+button,
+html [type="button"] {
+  -webkit-appearance: button;
+}
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner,
+button::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring,
+button:-moz-focusring {
+  outline: ButtonText dotted 1px;
+}
+textarea {
+  overflow: auto;
+}
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  font: inherit;
+}
+summary {
+  display: list-item;
+}
+[hidden] {
+  display: none;
+} /* Oxygen */
+html {
+  box-sizing: border-box;
+}
+body {
+  font-size: 16px;
+  color: rgba(64, 64, 64, 1);
+}
+*,
+::after,
+::before {
+  box-sizing: inherit;
+}
+.ct-section-inner-wrap {
+  margin-left: auto;
+  margin-right: auto;
+  height: 100%;
+  min-height: inherit;
+}
+div.ct-fancy-icon {
+  display: inline-flex;
+  border-radius: 50%;
+}
+.ct-fancy-icon > svg {
+  fill: currentColor;
+}
+@keyframes oxy_sticky_header_fadein {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.oxy-header-wrapper {
+  position: relative;
+}
+.oxy-header-row {
+  width: 100%;
+  display: block;
+}
+.oxy-header-container {
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: stretch;
+}
+.oxy-header-center,
+.oxy-header-left,
+.oxy-header-right {
+  display: flex;
+  align-items: center;
+}
+.oxy-header-left {
+  justify-content: flex-start;
+}
+.oxy-header-center {
+  flex-grow: 1;
+  justify-content: center;
+}
+.oxy-header-right {
+  justify-content: flex-end;
+}
+@keyframes oxy_progress_bar_width {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 100%;
+  }
+}
+@keyframes oxy_progress_bar_stripes {
+  from {
+    background-position: 44px 0;
+  }
+  to {
+    background-position: 0 0;
+  }
+}
+body.oxy-modal-active {
+  height: 100vh;
+  overflow-y: hidden;
+  position: fixed;
+  right: 0;
+  left: 0;
+}
+.oxy-modal-backdrop {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+body:not(.oxygen-builder-body) .oxy-modal-backdrop {
+  display: none;
+}
+.oxy-modal-backdrop.live {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  z-index: 1400;
+}
+.oxy-modal-backdrop.hidden {
+  display: none;
+}
+.oxy-modal-backdrop.left {
+  flex-direction: column;
+  align-items: flex-start;
+}
+.oxy-modal-backdrop.right {
+  flex-direction: column;
+  align-items: flex-end;
+}
+.oxy-modal-backdrop.top {
+  flex-direction: row;
+  align-items: flex-start;
+}
+.oxy-modal-backdrop.bottom {
+  flex-direction: row;
+  align-items: flex-end;
+}
+.oxy-modal-backdrop .ct-modal {
+  background-color: white;
+  max-height: 100vh;
+  overflow-y: auto;
+}
+/* Custom HTML tag support */
+/* End custom HTML tag support */
