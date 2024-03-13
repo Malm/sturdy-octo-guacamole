@@ -1,0 +1,77 @@
+/*! normalize.css v7.0.0 | MIT License | github.com/necolas/normalize.css */
+html {
+  line-height: 1.15;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+body {
+  margin: 0;
+}
+article,
+section {
+  display: block;
+}
+a {
+  background-color: transparent;
+  -webkit-text-decoration-skip: objects;
+}
+img {
+  border-style: none;
+}
+svg:not(:root) {
+  overflow: hidden;
+}
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  font: inherit;
+}
+summary {
+  display: list-item;
+}
+[hidden] {
+  display: none;
+} /* Oxygen */
+html {
+  box-sizing: border-box;
+}
+body {
+  font-size: 16px;
+  color: rgba(64, 64, 64, 1);
+}
+*,
+::after,
+::before {
+  box-sizing: inherit;
+}
+.ct-section-inner-wrap {
+  margin-left: auto;
+  margin-right: auto;
+  height: 100%;
+  min-height: inherit;
+}
+@keyframes oxy_sticky_header_fadein {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes oxy_progress_bar_width {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 100%;
+  }
+}
+@keyframes oxy_progress_bar_stripes {
+  from {
+    background-position: 44px 0;
+  }
+  to {
+    background-position: 0 0;
+  }
+}
+/* Custom HTML tag support */
+/* End custom HTML tag support */
